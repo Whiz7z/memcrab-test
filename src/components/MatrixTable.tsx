@@ -7,6 +7,8 @@ import "../styles/MatrixTable.scss";
 const MatrixTable: React.FC = () => {
   const { matrix, calculateAverage } = useMatrix();
 
+  if(!matrix.length) return (<p style={{margin: '0 auto', textAlign: 'center'}}>Matrix is empty</p>)
+
   return (
     <table className="matrix-table">
       <thead>
