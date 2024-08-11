@@ -1,0 +1,47 @@
+
+.matrix-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1c1c1c; 
+  color: #ffffff; 
+  .head-n-cell {
+  background-color: #1c1c1c;
+}
+}
+
+.matrix-table th,
+.matrix-table td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #444; 
+}
+
+.matrix-table th {
+  background-color: #333; 
+  font-weight: normal;
+}
+
+.matrix-table .table-cell {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.table-sub-cell {
+  background-color: #333;
+}
+
+
+
+.matrix-table .table-cell:hover {
+  background-color: #555; 
+}
+
+.average-row td {
+  background-color: #333;
+}
+
+
+.nearest{
+  background-color: #9ebe9f;
+  
+}
