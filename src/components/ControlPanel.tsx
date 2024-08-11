@@ -22,7 +22,7 @@ const ControlPanel: React.FC = () => {
     <div className={style.mainContainer}>
       <div className={style.controlPanel}>
         <div>
-          <label htmlFor="m">M - </label>
+          <label htmlFor="m">M</label>
           <input
             type="number"
             id="m"
@@ -33,7 +33,7 @@ const ControlPanel: React.FC = () => {
         </div>
 
         <div>
-          <label htmlFor="n">N - </label>
+          <label htmlFor="n">N</label>
           <input
             type="number"
             id="n"
@@ -43,7 +43,7 @@ const ControlPanel: React.FC = () => {
           />
         </div>
         <div>
-          <label htmlFor="x">X - </label>
+          <label htmlFor="x">X</label>
           <input
             type="number"
             id="x"
